@@ -40,8 +40,8 @@ cp raw2dng $TOOLLOC
 
 make clean
 
-#Make dcraw. Because why not.
-$SCRIPTPATH/mkDcraw.sh
+#Make dcraw.
+#$SCRIPTPATH/mkDcraw.sh
 
 #Make Executable
 chmod -R +x $TOOLLOC/*
